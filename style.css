@@ -33,3 +33,81 @@ body {
     background-color: #04AA6D;
     color: white;
 }
+
+.progress {
+    height: 35px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #aabbe8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 75%;
+    background-color: rgb(36, 67, 206);
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 10px;
+}
+
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.html5 {
+    width: 85%;
+}
+
+.css3 {
+    width: 80%;
+}
+
+.excel {
+    background-color: green;
+    width: 80%;
+}
+
+.word {
+    background-color: rgb(9, 4, 161);
+    width: 95%;
+}
+
+.point {
+    background-color: red;
+    width: 85%;
+}
+
+.access {
+    background-color: rgb(151, 26, 26);
+    width: 10%;
+}
+
+.write {
+    background-color: rgb(49, 45, 45);
+    width: 75%;
+}
+
+.read {
+    background-color: rgb(49, 45, 45);
+    width: 90%;
+}
+
+.listen {
+    background-color: rgb(49, 45, 45);
+    width: 85%;
+}
+
+.speak {
+    background-color: rgb(49, 45, 45);
+    width: 80%;
+}
+
+.new {
+    border: 3px solid yellow;
+}
